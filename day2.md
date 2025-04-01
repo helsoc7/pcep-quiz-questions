@@ -1,7 +1,3 @@
-# Python Datentypen und Operationen - Quiz
-
-## Grundlegende Konzepte und Variablen
-
 # Frage 1
 Was sind Literale in Python?
 - [ ] Variablen, die sich während der Programmausführung ändern können
@@ -36,8 +32,6 @@ Was ist der Unterschied zwischen Variablen und Literalen?
 - [ ] Variablen werden zur Laufzeit erstellt, Literale zur Kompilierzeit
 - [x] Variablen sind benannte Speicherplätze, Literale sind feste Werte im Code
 - [ ] Es gibt keinen Unterschied, beide Begriffe beschreiben dasselbe
-
-## Datentypen und Typkonvertierung
 
 # Frage 6
 Welcher Wert entsteht durch die folgende Operation? 
@@ -78,7 +72,6 @@ Wie überprüft man in Python, ob eine Variable den Typ Integer hat?
 - [x] \`isinstance(variable, int)\`
 - [ ] \`isint(variable)\`
 
-## Numerische Typen
 
 # Frage 11
 Was ist das Ergebnis des Ausdrucks \`0b101010\`?
@@ -114,8 +107,6 @@ Welcher Code erzeugt den Wert "unendlich" in Python?
 - [ ] Integer.MAX_VALUE
 - [x] float('inf')
 - [ ] math.infinity
-
-## Strings und String-Operationen
 
 # Frage 16
 Wie greift man auf das erste Zeichen eines Strings \`text\` zu?
@@ -177,8 +168,6 @@ Welche Methode wird verwendet, um einen String in eine Liste von Teilstrings zu 
 - [x] split()
 - [ ] tokenize()
 
-## Operatoren und Ausdrücke
-
 # Frage 24
 Was ist der Wert von \`5 // 2\` in Python?
 - [ ] 2.5
@@ -228,7 +217,6 @@ Was ist das Ergebnis von \`True + True\` in Python?
 - [ ] 1
 - [ ] Ein TypeError
 
-## Vergleichs- und logische Operatoren
 
 # Frage 31
 Was ist das Ergebnis von \`5 > 3 and 10 < 20\`?
@@ -279,7 +267,6 @@ Welche Operatorenkombination kann verwendet werden, um zu prüfen, ob x zwischen
 - [ ] x >= 10 and x <= 20
 - [ ] Sowohl 10 <= x <= 20 als auch x >= 10 and x <= 20 sind korrekt
 
-## Typkonvertierung und spezielle Themen
 
 # Frage 38
 Was ist das Ergebnis von \`int(3.99)\` in Python?
@@ -323,7 +310,6 @@ Was gibt die Methode \`isdigit()\` bei einem String zurück?
 - [ ] Den ersten numerischen Wert im String
 - [ ] Eine Liste aller Ziffern im String
 
-## Allgemeine Python-Konzepte
 
 # Frage 44
 Welche Eigenschaft haben alle Strings in Python?
