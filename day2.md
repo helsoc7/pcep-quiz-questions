@@ -36,9 +36,9 @@ Was ist der Unterschied zwischen Variablen und Literalen?
 # Frage 6
 Welcher Wert entsteht durch die folgende Operation? 
 
-\`\`\`python
+```python
 int(float("3.14"))
-\`\`\`
+```
 - [x] 3
 - [ ] 3.14
 - [ ] 4
@@ -46,20 +46,20 @@ int(float("3.14"))
 
 # Frage 7
 Welche der folgenden Aussagen zur Typkonvertierung in Python sind wahr?
-- [x] \`int("42")\` konvertiert den String "42" in die Ganzzahl 42
-- [x] \`bool(0)\` gibt False zurück
-- [ ] \`int("3.14")\` konvertiert den String "3.14" in die Ganzzahl 3
-- [ ] \`str(True)\` gibt "1" zurück
+- [x] `int("42")` konvertiert den String "42" in die Ganzzahl 42
+- [x] `bool(0)` gibt False zurück
+- [ ] `int("3.14")` konvertiert den String "3.14" in die Ganzzahl 3
+- [ ] `str(True)` gibt "1" zurück
 
 # Frage 8
-Was ist das Ergebnis von \`bool("")\`?
+Was ist das Ergebnis von `bool("")`?
 - [x] False
 - [ ] True
 - [ ] ""
 - [ ] None
 
 # Frage 9
-Welche der folgenden Werte werden in einem booleschen Kontext als \`False\` interpretiert?
+Welche der folgenden Werte werden in einem booleschen Kontext als `False` interpretiert?
 - [x] 0
 - [x] ""
 - [x] []
@@ -67,14 +67,14 @@ Welche der folgenden Werte werden in einem booleschen Kontext als \`False\` inte
 
 # Frage 10
 Wie überprüft man in Python, ob eine Variable den Typ Integer hat?
-- [ ] \`variable.type() == int\`
-- [ ] \`type(variable) == "int"\`
-- [x] \`isinstance(variable, int)\`
-- [ ] \`isint(variable)\`
+- [ ] `variable.type() == int`
+- [ ] `type(variable) == "int"`
+- [x] `isinstance(variable, int)`
+- [ ] `isint(variable)`
 
 
 # Frage 11
-Was ist das Ergebnis des Ausdrucks \`0b101010\`?
+Was ist das Ergebnis des Ausdrucks `0b101010`?
 - [ ] 101010
 - [ ] 12
 - [x] 42
@@ -88,14 +88,14 @@ Welche Aussage zum Wertebereich von Integer in Python ist korrekt?
 - [ ] Integer können nur positive Werte speichern
 
 # Frage 13
-Was ist der Wert von \`1_000_000\` in Python?
+Was ist der Wert von `1_000_000` in Python?
 - [x] 1000000
 - [ ] 1_000_000
 - [ ] Ein Syntaxfehler
 - [ ] 100000
 
 # Frage 14
-Was ist das Ergebnis des Ausdrucks \`0.1 + 0.2 == 0.3\` in Python?
+Was ist das Ergebnis des Ausdrucks `0.1 + 0.2 == 0.3` in Python?
 - [ ] True
 - [x] False
 - [ ] Ein Syntaxfehler
@@ -109,7 +109,7 @@ Welcher Code erzeugt den Wert "unendlich" in Python?
 - [ ] math.infinity
 
 # Frage 16
-Wie greift man auf das erste Zeichen eines Strings \`text\` zu?
+Wie greift man auf das erste Zeichen eines Strings `text` zu?
 - [ ] text(0)
 - [x] text[0]
 - [ ] text.first()
@@ -118,9 +118,9 @@ Wie greift man auf das erste Zeichen eines Strings \`text\` zu?
 # Frage 17
 Was gibt der folgende Code aus?
 
-\`\`\`python
+```python
 print("Python"[::-1])
-\`\`\`
+```
 - [ ] Python
 - [ ] P
 - [ ] nohtyP
@@ -141,7 +141,7 @@ Welches ist die empfohlene Methode zur String-Formatierung in modernem Python?
 - [ ] template.substitute()
 
 # Frage 20
-Welches Ergebnis liefert \`len("Python")\`?
+Welches Ergebnis liefert `len("Python")`?
 - [ ] 5
 - [x] 6
 - [ ] 7
@@ -155,7 +155,7 @@ Welche Aussage zu mehrzeiligen Strings in Python ist korrekt?
 - [ ] Python unterstützt keine mehrzeiligen Strings
 
 # Frage 22
-Was ist das Ergebnis von \`"abc" * 3\`?
+Was ist das Ergebnis von `"abc" * 3`?
 - [x] "abcabcabc"
 - [ ] "abc3"
 - [ ] Ein TypeError
@@ -169,7 +169,7 @@ Welche Methode wird verwendet, um einen String in eine Liste von Teilstrings zu 
 - [ ] tokenize()
 
 # Frage 24
-Was ist der Wert von \`5 // 2\` in Python?
+Was ist der Wert von `5 // 2` in Python?
 - [ ] 2.5
 - [x] 2
 - [ ] 3
@@ -183,21 +183,21 @@ Welcher Operator wird für die Potenzierung in Python verwendet?
 - [x] **
 
 # Frage 26
-Was ist das Ergebnis von \`2 + 3 * 4\`?
+Was ist das Ergebnis von `2 + 3 * 4`?
 - [ ] 20
 - [x] 14
 - [ ] 10
 - [ ] 24
 
 # Frage 27
-Welcher Ausdruck ist äquivalent zu \`x += 5\`?
+Welcher Ausdruck ist äquivalent zu `x += 5`?
 - [x] x = x + 5
 - [ ] x = x * 5
 - [ ] x = 5
 - [ ] x = 5 + x
 
 # Frage 28
-Was ist der Wert von \`10 % 3\`?
+Was ist der Wert von `10 % 3`?
 - [ ] 3
 - [ ] 3.33
 - [x] 1
@@ -211,7 +211,7 @@ Wie lautet die korrekte Operatorrangfolge in Python (von höchster zu niedrigste
 - [ ] Addition/Subtraktion, Multiplikation/Division, Potenzierung, Klammern
 
 # Frage 30
-Was ist das Ergebnis von \`True + True\` in Python?
+Was ist das Ergebnis von `True + True` in Python?
 - [ ] True
 - [x] 2
 - [ ] 1
@@ -219,21 +219,21 @@ Was ist das Ergebnis von \`True + True\` in Python?
 
 
 # Frage 31
-Was ist das Ergebnis von \`5 > 3 and 10 < 20\`?
+Was ist das Ergebnis von `5 > 3 and 10 < 20`?
 - [x] True
 - [ ] False
 - [ ] None
 - [ ] Ein Syntaxfehler
 
 # Frage 32
-Was ist das Ergebnis von \`not (5 > 7)\`?
+Was ist das Ergebnis von `not (5 > 7)`?
 - [x] True
 - [ ] False
 - [ ] None
 - [ ] Ein Syntaxfehler
 
 # Frage 33
-Was ist das Ergebnis von \`0 < 5 < 10\` in Python?
+Was ist das Ergebnis von `0 < 5 < 10` in Python?
 - [x] True
 - [ ] False
 - [ ] Ein Syntaxfehler
@@ -254,7 +254,7 @@ Was bedeutet der Ausdruck "Kurzschlussauswertung" bei logischen Operatoren?
 - [ ] Die Auswertung erfolgt von rechts nach links
 
 # Frage 36
-Was ist das Ergebnis von \`True or print("Hallo")\`?
+Was ist das Ergebnis von `True or print("Hallo")`?
 - [x] True
 - [ ] Hallo
 - [ ] True und Hallo wird ausgegeben
@@ -269,7 +269,7 @@ Welche Operatorenkombination kann verwendet werden, um zu prüfen, ob x zwischen
 
 
 # Frage 38
-Was ist das Ergebnis von \`int(3.99)\` in Python?
+Was ist das Ergebnis von `int(3.99)` in Python?
 - [x] 3
 - [ ] 4
 - [ ] 3.0
@@ -277,13 +277,13 @@ Was ist das Ergebnis von \`int(3.99)\` in Python?
 
 # Frage 39
 Welche der folgenden Anweisungen führt zu einem ValueError?
-- [ ] \`int("42")\`
-- [ ] \`float("3.14")\`
-- [x] \`int("3.14")\`
-- [ ] \`bool("False")\`
+- [ ] `int("42")`
+- [ ] `float("3.14")`
+- [x] `int("3.14")`
+- [ ] `bool("False")`
 
 # Frage 40
-Was ist das Ergebnis von \`set([1, 2, 2, 3, 3, 3])\`?
+Was ist das Ergebnis von `set([1, 2, 2, 3, 3, 3])`?
 - [ ] [1, 2, 2, 3, 3, 3]
 - [ ] [1, 2, 3]
 - [x] {1, 2, 3}
@@ -297,14 +297,14 @@ Welche Funktion gibt den Datentyp eines Objekts zurück?
 - [ ] datatype()
 
 # Frage 42
-Was ist das Ergebnis von \`type(5)\`?
+Was ist das Ergebnis von `type(5)`?
 - [ ] "int"
 - [ ] int
 - [x] <class 'int'>
 - [ ] integer
 
 # Frage 43
-Was gibt die Methode \`isdigit()\` bei einem String zurück?
+Was gibt die Methode `isdigit()` bei einem String zurück?
 - [ ] Die Anzahl der Ziffern im String
 - [x] True, wenn der String nur aus Ziffern besteht
 - [ ] Den ersten numerischen Wert im String
@@ -319,11 +319,11 @@ Welche Eigenschaft haben alle Strings in Python?
 - [ ] Sie können nur ASCII-Zeichen enthalten
 
 # Frage 45
-Was ist der Unterschied zwischen \`==\` und \`is\` in Python?
+Was ist der Unterschied zwischen `==` und `is` in Python?
 - [ ] Es gibt keinen Unterschied, beide prüfen auf Gleichheit
-- [ ] `==` prüft auf Gleichheit, \`is\` ist kein gültiger Python-Operator
-- [x] `==` prüft auf Wertgleichheit, \`is\` prüft auf Identität (gleiches Objekt)
-- [ ] `==` funktioniert nur für numerische Typen, \`is\` funktioniert für alle Typen
+- [ ] `==` prüft auf Gleichheit, `is` ist kein gültiger Python-Operator
+- [x] `==` prüft auf Wertgleichheit, `is` prüft auf Identität (gleiches Objekt)
+- [ ] `==` funktioniert nur für numerische Typen, `is` funktioniert für alle Typen
 
 # Frage 46
 Welches ist ein gültiger Weg, einen Raw-String in Python zu definieren?
@@ -335,11 +335,11 @@ Welches ist ein gültiger Weg, einen Raw-String in Python zu definieren?
 # Frage 47
 Was ist das Ergebnis der Ausführung des folgenden Codes?
 
-\`\`\`python
+```python
 a = "Python"
 a[0] = "J"
 print(a)
-\`\`\`
+```
 - [ ] "Jython"
 - [ ] "Python"
 - [x] Ein TypeError, da Strings unveränderlich sind
@@ -355,9 +355,9 @@ Welche Aussage zu booleschen Werten in Python ist korrekt?
 # Frage 49
 Was gibt die folgende Code-Zeile aus?
 
-\`\`\`python
+```python
 print("Python"[1:4])
-\`\`\`
+```
 - [ ] "Pyt"
 - [x] "yth"
 - [ ] "ytho"
@@ -365,7 +365,7 @@ print("Python"[1:4])
 
 # Frage 50
 Wie kann man in Python prüfen, ob ein String nur aus Buchstaben besteht?
-- [ ] \`string.only_letters()\`
-- [ ] \`letters_only(string)\`
-- [x] \`string.isalpha()\`
-- [ ] \`string.alpha()\`
+- [ ] `string.only_letters()`
+- [ ] `letters_only(string)`
+- [x] `string.isalpha()`
+- [ ] `string.alpha()`
