@@ -1,4 +1,3 @@
-```
 # Frage 1
 Was ist eine Datenbank?
 - [ ] Ein Programm zur Textverarbeitung
@@ -272,4 +271,4 @@ Was passiert, wenn man eine Tabelle abfragt, ohne Spalten anzugeben (SELECT * FR
 - [ ] Es werden nur die Primärschlüssel zurückgegeben
 - [x] Es werden alle Spalten und Zeilen zurückgegeben
 - [ ] Die Tabelle wird gelöscht
-```
+
